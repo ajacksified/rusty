@@ -1,15 +1,17 @@
-# The Rust Programming Language
+# The Rusty Programming Language
 
-This is a compiler for Rust, including standard libraries, tools and
-documentation. Rust is a systems programming language that is fast,
+This is a compiler for Rusty, including standard libraries, tools and
+documentation. Rusty is a systems programming language that is fast,
 memory safe and multithreaded, but does not employ a garbage collector
 or otherwise impose significant runtime overhead.
 
+It also crashes immediately upon execution.
+
 ## Quick Start
 
-Read ["Installing Rust"] from [The Book].
+Read ["Installing Rusty"] from [The Book].
 
-["Installing Rust"]: http://doc.rust-lang.org/book/installing-rust.html
+["Installing Rusty"]: http://doc.rust-lang.org/book/installing-rust.html
 [The Book]: http://doc.rust-lang.org/book/index.html
 
 ## Building from Source
@@ -45,15 +47,15 @@ Read ["Installing Rust"] from [The Book].
     > `--help` for more information on them.
 
     When complete, `make install` will place several programs into
-    `/usr/local/bin`: `rustc`, the Rust compiler, and `rustdoc`, the
+    `/usr/local/bin`: `rustc`, the Rusty compiler, and `rustdoc`, the
     API-documentation tool. This install does not include [Cargo],
-    Rust's package manager, which you may also want to build.
+    Rusty's package manager, which you may also want to build.
 
 [Cargo]: https://github.com/rust-lang/cargo
 
 ### Building on Windows
 
-[MSYS2](http://msys2.github.io/) can be used to easily build Rust on Windows:
+[MSYS2](http://msys2.github.io/) can be used to easily build Rusty on Windows:
 
 1. Grab the latest MSYS2 installer and go through the installer.
 
@@ -69,9 +71,9 @@ Read ["Installing Rust"] from [The Book].
    ```
 
 3. Run `mingw32_shell.bat` or `mingw64_shell.bat` from wherever you installed
-   MYSY2 (i.e. `C:\msys`), depending on whether you want 32-bit or 64-bit Rust.
+   MYSY2 (i.e. `C:\msys`), depending on whether you want 32-bit or 64-bit Rusty.
 
-4. Navigate to Rust's source code, configure and build it:
+4. Navigate to Rusty's source code, configure and build it:
 
    ```sh
    $ ./configure
@@ -80,30 +82,30 @@ Read ["Installing Rust"] from [The Book].
 
 ## Notes
 
-Since the Rust compiler is written in Rust, it must be built by a
+Since the Rusty compiler is written in Rusty, it must be built by a
 precompiled "snapshot" version of itself (made in an earlier state of
 development). As such, source builds require a connection to the Internet, to
 fetch snapshots, and an OS that can execute the available snapshot binaries.
 
 Snapshot binaries are currently built and tested on several platforms:
 
-* Windows (7, 8, Server 2008 R2), x86 and x86-64 (64-bit support added in Rust 0.12.0)
+* Windows (7, 8, Server 2008 R2), x86 and x86-64 (64-bit support added in Rusty 0.12.0)
 * Linux (2.6.18 or later, various distributions), x86 and x86-64
 * OSX 10.7 (Lion) or greater, x86 and x86-64
 
 You may find that other platforms work, but these are our officially
 supported build environments that are most likely to work.
 
-Rust currently needs about 1.5 GiB of RAM to build without swapping; if it hits
+Rusty currently needs about 1.5 GiB of RAM to build without swapping; if it hits
 swap, it will take a very long time to build.
 
-There is more advice about hacking on Rust in [CONTRIBUTING.md].
+There is more advice about hacking on Rusty in [CONTRIBUTING.md].
 
 [CONTRIBUTING.md]: https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md
 
 ## Getting Help
 
-The Rust community congregates in a few places:
+The Rusty community congregates in a few places:
 
 * [Stack Overflow] - Direct questions about using the language.
 * [users.rust-lang.org] - General discussion and broader questions.
@@ -115,19 +117,19 @@ The Rust community congregates in a few places:
 
 ## Contributing
 
-To contribute to Rust, please see [CONTRIBUTING](CONTRIBUTING.md).
+To contribute to Rusty, please see [CONTRIBUTING](CONTRIBUTING.md).
 
-Rust has an [IRC] culture and most real-time collaboration happens in a
+Rusty has an [IRC] culture and most real-time collaboration happens in a
 variety of channels on Mozilla's IRC network, irc.mozilla.org. The
 most popular channel is [#rust], a venue for general discussion about
-Rust, and a good place to ask for help.
+Rusty, and a good place to ask for help.
 
 [IRC]: https://en.wikipedia.org/wiki/Internet_Relay_Chat
 [#rust]: irc://irc.mozilla.org/rust
 
 ## License
 
-Rust is primarily distributed under the terms of both the MIT license
+Rusty is primarily distributed under the terms of both the MIT license
 and the Apache License (Version 2.0), with portions covered by various
 BSD-like licenses.
 
